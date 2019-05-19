@@ -1,0 +1,14 @@
+<div class="menuItems d-none">
+  <ul class="list-unstyled">
+    {{ range .Site.Sections }}
+    <li>
+      <a href="{{ .URL | absURL}}">
+        <h2 class="mb-0 mt-3">
+          {{ .Title |markdownify }}
+        </h2>
+      </a>
+      <p>by {{ .Params.author }}</p>
+    </li>
+    {{ end }}
+  </ul>
+</div>

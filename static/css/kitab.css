@@ -1,0 +1,24 @@
+html {
+  width: 100vw;
+}
+* {
+  font-family: "Roboto", sans-serif;
+}
+body {
+  background-color: #f3f3ef;
+}
+.navMenu {
+  color: #007bff !important;
+  font-size: 1.8em;
+}
+.navMenu:hover {
+  color: #0056b3 !important;
+  cursor: pointer;
+}
+a:hover {
+  text-decoration: none;
+}
+.toTop {
+  position: fixed;
+  bottom: 0;
+}

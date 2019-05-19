@@ -1,0 +1,11 @@
+{{ define "main" }}
+<div>
+  <h2>{{ .Title }}</h2>
+  <div class="ml-4 border-left border-primary pl-1">
+    {{ .Content }}
+  </div>
+  <div class="toTop navMenu menuItem" onclick="scrollToTop()">
+      <i class="fas fa-angle-up"></i>
+  </div>
+</div>
+{{ end }}

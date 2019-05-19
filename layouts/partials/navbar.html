@@ -1,0 +1,16 @@
+<div class="d-flex flex-row mt-2 border-bottom">
+  <div class="menuItem navMenu mr-4">
+    <a href="{{ `/` | relURL }}"><i class="fas fa-home"></i></a>
+  </div>
+  <div class="menuItem navMenu mr-4" onclick="showBooks()">
+    <i class="fas fa-book"></i>
+  </div>
+  {{ if eq .Kind "page" }}
+  <div class="menuItem navMenu" onclick="showChapters()">
+    <i class="fas fa-bars"></i>
+  </div>
+  {{ end }}
+  <div class="w-100 text-right">
+    {{ partial "footer" . }}
+  </div>
+</div>
