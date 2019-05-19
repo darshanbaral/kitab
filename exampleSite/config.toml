@@ -1,4 +1,4 @@
-baseURL = "https://www.darshanbaral.com/"
+baseURL = "http://example.org/"
 languageCode = "en-us"
 theme = "kitab"
 title = "Books of Jane Austen"
@@ -7,7 +7,7 @@ disableKinds = ["taxonomy", "taxonomyTerm"]
 pluralizelisttitles = false
 
 [params]
-  author = "Darshan Baral"
+  author = "First Last"
   description = "Some books of Jane Austen"
   dateFormat = "2006-01-02"
   footer = "Awesome Books"
