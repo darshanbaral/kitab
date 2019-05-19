@@ -1,0 +1,13 @@
+baseURL = "https://www.darshanbaral.com/"
+languageCode = "en-us"
+theme = "kitab"
+title = "Books of Jane Austen"
+
+disableKinds = ["taxonomy", "taxonomyTerm"]
+pluralizelisttitles = false
+
+[params]
+  author = "Darshan Baral"
+  description = "Some books of Jane Austen"
+  dateFormat = "2006-01-02"
+  footer = "Awesome Books"
