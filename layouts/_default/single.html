@@ -1,11 +1,16 @@
 {{ define "main" }}
-<div>
+<div class="mb-4">
+  <small>{{ partial "previousChapter" . }}</small>
   <h2>{{ .Title }}</h2>
   <div class="ml-4 border-left border-primary pl-1">
     {{ .Content }}
+    <div class="d-flex flex-row justify-content-around border-top pt-2 border-primary">
+      {{ partial "previousChapter" . }}
+      {{ partial "nextChapter" . }}
+    </div>
   </div>
   <div class="toTop navMenu menuItem" onclick="scrollToTop()">
-      <i class="fas fa-angle-up"></i>
+    <i class="fas fa-angle-up"></i>
   </div>
 </div>
 {{ end }}

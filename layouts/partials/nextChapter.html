@@ -1,0 +1,10 @@
+{{ if .PrevInSection }}
+<div>
+  <a
+    href="{{ .PrevInSection.Permalink | relURL }}"
+    title="{{ .PrevInSection.Title }}"
+  >
+    Next Chapter &gt;
+  </a>
+</div>
+{{ end }}
