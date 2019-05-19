@@ -1,8 +1,8 @@
 name = "kitab"
 license = "MIT"
-licenselink = "https://github.com/yourname/yourtheme/blob/master/LICENSE"
+licenselink = "https://github.com/darshanbaral/kitab/blob/master/LICENSE"
 description = "A hugo theme for publishing books"
-homepage = ""
+homepage = "https://github.com/darshanbaral/kitab"
 tags = ["book"]
 features = ["minimal", "responsive"]
 min_version = "0.41"
