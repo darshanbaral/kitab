@@ -23,3 +23,4 @@ You'll find a file called [`config.toml`](https://github.com/darshanbaral/kitab/
 
 - Create a folder inside the `content` folder for each book
 - Add `_index.md` inside the folder for book with meta data such as book title, author, and date.
+- Create a new file for each chapter of the book.
