@@ -1,26 +1,32 @@
 {{ define "main" }}
-<table class="table table-striped table-sm m-auto" style="max-width: 800px;">
-  <thead>
-    <tr>
-      <th scope="col">
-        <h3>
-          {{ .Title | markdownify }}
-        </h3>
-      </th>
-    </tr>
-  </thead>
-  <tbody>
-    {{ range .Pages.ByWeight }}
-    <tr>
-      <td>
-        <a href="{{ .Permalink }}">
-          <h4>
-            {{ .Title }}
-          </h4>
-        </a>
-      </td>
-    </tr>
-    {{  end }}
-  </tbody>
-</table>
+<div class="row mb-4">
+  <div class="col-md-6">
+    <div class="w-90 m-auto bg-warning">
+      {{ $path := (print "bookCovers/" (replace .Dir "\\" "") ".jpg") | relURL }}
+      <img class="rounded shadow-lg" style="width: 100%;" src="{{ $path }}" />
+      <div class="bookTitle p-0 rounded" style="width: 60%;">
+        <h2 class="book-cover m-0 pl-1 pr-1">{{ .Title | markdownify }}</h2>
+        <h4 class="book-cover pl-1 pr-1 w-auto">Sub-title</h4>
+      </div>
+      <div class="bookAuthor p-0 rounded">
+        <h4 class="book-cover m-0 pl-1 pr-1">{{ .Params.author }}</h4>
+      </div>
+    </div>
+  </div>
+  
+  <div class="col-md-6 p-2 rounded shadow">
+    <h3>
+      Chapters
+    </h3>
+    <ul class="list-unstyled">
+    {{ range.Pages.ByWeight }}
+    <li>
+    <a href="{{ .Permalink }}">
+        {{ .Title }}
+    </a>
+  </li>
+    {{ end }}
+  </ul>
+  </div>
+</div>
 {{ end }}

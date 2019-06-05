@@ -18,7 +18,17 @@ body {
 a:hover {
   text-decoration: none;
 }
-.toTop {
-  position: fixed;
-  bottom: 0;
+.book-cover {
+  color: white;
+  background-color: #24242499;
+}
+.bookTitle {
+  position: absolute;
+  top: 2%;
+  left: 5%;
+}
+.bookAuthor {
+  position: absolute;
+  bottom: 2%;
+  right: 5%;
 }

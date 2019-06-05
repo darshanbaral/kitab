@@ -4,13 +4,29 @@
   <h2>{{ .Title }}</h2>
   <div class="ml-4 border-left border-primary pl-1">
     {{ .Content }}
-    <div class="d-flex flex-row justify-content-around border-top pt-2 border-primary">
+    <div
+      class="d-flex flex-row justify-content-around border-top pt-2 border-primary"
+    >
       {{ partial "previousChapter" . }}
       {{ partial "nextChapter" . }}
     </div>
   </div>
-  <div class="toTop navMenu menuItem" onclick="scrollToTop()">
-    <i class="fas fa-angle-up"></i>
+
+  <div class="toTop" style="width: 50px;">
+    <p class="navMenu menuItem mb-0">
+      <i class="fas fa-angle-up" onclick="scrollToTop()"></i>
+    </p>
+    <hr>
+    <p class="about text-right">
+      <small>
+        <a href="https://github.com/darshanbaral/kitab">
+          kitab<br>
+        </a>
+        <a href="https://www.darshanbaral.com/">
+          d.b
+        </a>
+      </small>
+    </p>
   </div>
 </div>
 {{ end }}
