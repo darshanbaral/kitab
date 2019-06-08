@@ -9,7 +9,7 @@ body {
 }
 .navMenu {
   color: #007bff !important;
-  font-size: 1.8em;
+  font-size: 1.5em;
 }
 .navMenu:hover {
   color: #0056b3 !important;
@@ -31,4 +31,8 @@ a:hover {
   position: absolute;
   bottom: 2%;
   right: 5%;
+}
+.toTop {
+  position: fixed;
+  bottom: 10px;
 }

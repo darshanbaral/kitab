@@ -1,16 +1,16 @@
 {{ define "main" }}
   <div class="site-title text-center">
     <h1>
-      {{ .Title }}
+      {{- .Title -}}
     </h1>
   </div>
   <div class="d-flex flex-row justify-content-center row">
     {{ range .Site.Sections.ByWeight }}
-    <div class="m-2 p-2 border border-primary rounded" style="min-width: 300px; width: 40%;">
+    <div class="m-4 p-4 shadow rounded" style="min-width: 300px; width: 40%;">
       <a href="{{ .Permalink }}">
-        <h3 class="mb-0 p-0">
+        <h4 class="mb-0 p-0">
           {{ .Title | markdownify }}
-        </h3>
+        </h4>
       </a>
       <div class="text-right">
       <small>
@@ -21,9 +21,9 @@
         {{ range first 5 .Pages }}
         <li>
           <a href="{{ .Permalink }}">
-            <h4>
+            <p class="mb-1">
               {{ .Title }}
-            </h4>
+            </p>
           </a>
         </li>
         {{ end }}

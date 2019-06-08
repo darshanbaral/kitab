@@ -1,170 +1,113 @@
 +++
-title = "Chapter 4"
+title = "Chapter IV"
 weight = 4
 date = "2019-05-12"
 +++
 
-Not all that Mrs. Bennet, however, with the assistance of her five
-daughters, could ask on the subject, was sufficient to draw from her
-husband any satisfactory description of Mr. Bingley. They attacked him
-in various ways--with barefaced questions, ingenious suppositions, and
-distant surmises; but he eluded the skill of them all, and they were at
-last obliged to accept the second-hand intelligence of their neighbour,
-Lady Lucas. Her report was highly favourable. Sir William had been
-delighted with him. He was quite young, wonderfully handsome, extremely
-agreeable, and, to crown the whole, he meant to be at the next assembly
-with a large party. Nothing could be more delightful! To be fond of
-dancing was a certain step towards falling in love; and very lively
-hopes of Mr. Bingley's heart were entertained.
+When Jane and Elizabeth were alone, the former, who had been cautious in
+her praise of Mr. Bingley before, expressed to her sister how very much
+she admired him.
 
-“If I can but see one of my daughters happily settled at Netherfield,”
- said Mrs. Bennet to her husband, “and all the others equally well
-married, I shall have nothing to wish for.”
+"He is just what a young man ought to be," said she, "sensible, good
+humoured, lively; and I never saw such happy manners!--so much ease,
+with such perfect good breeding!"
 
-In a few days Mr. Bingley returned Mr. Bennet's visit, and sat about
-ten minutes with him in his library. He had entertained hopes of being
-admitted to a sight of the young ladies, of whose beauty he had
-heard much; but he saw only the father. The ladies were somewhat more
-fortunate, for they had the advantage of ascertaining from an upper
-window that he wore a blue coat, and rode a black horse.
+"He is also handsome," replied Elizabeth, "which a young man ought
+likewise to be, if he possibly can. His character is thereby complete."
 
-An invitation to dinner was soon afterwards dispatched; and already
-had Mrs. Bennet planned the courses that were to do credit to her
-housekeeping, when an answer arrived which deferred it all. Mr. Bingley
-was obliged to be in town the following day, and, consequently, unable
-to accept the honour of their invitation, etc. Mrs. Bennet was quite
-disconcerted. She could not imagine what business he could have in town
-so soon after his arrival in Hertfordshire; and she began to fear that
-he might be always flying about from one place to another, and never
-settled at Netherfield as he ought to be. Lady Lucas quieted her fears
-a little by starting the idea of his being gone to London only to get
-a large party for the ball; and a report soon followed that Mr. Bingley
-was to bring twelve ladies and seven gentlemen with him to the assembly.
-The girls grieved over such a number of ladies, but were comforted the
-day before the ball by hearing, that instead of twelve he brought only
-six with him from London--his five sisters and a cousin. And when
-the party entered the assembly room it consisted of only five
-altogether--Mr. Bingley, his two sisters, the husband of the eldest, and
-another young man.
+"I was very much flattered by his asking me to dance a second time. I
+did not expect such a compliment."
 
-Mr. Bingley was good-looking and gentlemanlike; he had a pleasant
-countenance, and easy, unaffected manners. His sisters were fine women,
-with an air of decided fashion. His brother-in-law, Mr. Hurst, merely
-looked the gentleman; but his friend Mr. Darcy soon drew the attention
-of the room by his fine, tall person, handsome features, noble mien, and
-the report which was in general circulation within five minutes
-after his entrance, of his having ten thousand a year. The gentlemen
-pronounced him to be a fine figure of a man, the ladies declared he
-was much handsomer than Mr. Bingley, and he was looked at with great
-admiration for about half the evening, till his manners gave a disgust
-which turned the tide of his popularity; for he was discovered to be
-proud; to be above his company, and above being pleased; and not all
-his large estate in Derbyshire could then save him from having a most
-forbidding, disagreeable countenance, and being unworthy to be compared
-with his friend.
+"Did not you? _I_ did for you. But that is one great difference between
+us. Compliments always take _you_ by surprise, and _me_ never. What
+could be more natural than his asking you again? He could not help
+seeing that you were about five times as pretty as every other woman in
+the room. No thanks to his gallantry for that. Well, he certainly is
+very agreeable, and I give you leave to like him. You have liked many a
+stupider person."
 
-Mr. Bingley had soon made himself acquainted with all the principal
-people in the room; he was lively and unreserved, danced every dance,
-was angry that the ball closed so early, and talked of giving
-one himself at Netherfield. Such amiable qualities must speak for
-themselves. What a contrast between him and his friend! Mr. Darcy danced
-only once with Mrs. Hurst and once with Miss Bingley, declined being
-introduced to any other lady, and spent the rest of the evening in
-walking about the room, speaking occasionally to one of his own party.
-His character was decided. He was the proudest, most disagreeable man
-in the world, and everybody hoped that he would never come there again.
-Amongst the most violent against him was Mrs. Bennet, whose dislike of
-his general behaviour was sharpened into particular resentment by his
-having slighted one of her daughters.
+"Dear Lizzy!"
 
-Elizabeth Bennet had been obliged, by the scarcity of gentlemen, to sit
-down for two dances; and during part of that time, Mr. Darcy had been
-standing near enough for her to hear a conversation between him and Mr.
-Bingley, who came from the dance for a few minutes, to press his friend
-to join it.
+"Oh! you are a great deal too apt you know, to like people in general.
+You never see a fault in any body. All the world are good and agreeable
+in your eyes. I never heard you speak ill of a human being in my life."
 
-“Come, Darcy,” said he, “I must have you dance. I hate to see you
-standing about by yourself in this stupid manner. You had much better
-dance.”
+"I would wish not to be hasty in censuring any one; but I always speak
+what I think."
 
-“I certainly shall not. You know how I detest it, unless I am
-particularly acquainted with my partner. At such an assembly as this
-it would be insupportable. Your sisters are engaged, and there is not
-another woman in the room whom it would not be a punishment to me to
-stand up with.”
+"I know you do; and it is _that_ which makes the wonder. With _your_
+good sense, to be so honestly blind to the follies and nonsense of
+others! Affectation of candour is common enough;--one meets it every
+where. But to be candid without ostentation or design--to take the good
+of every body's character and make it still better, and say nothing of
+the bad--belongs to you alone. And so, you like this man's sisters too,
+do you? Their manners are not equal to his."
 
-“I would not be so fastidious as you are,” cried Mr. Bingley, “for a
-kingdom! Upon my honour, I never met with so many pleasant girls in
-my life as I have this evening; and there are several of them you see
-uncommonly pretty.”
+"Certainly not; at first. But they are very pleasing women when you
+converse with them. Miss Bingley is to live with her brother and keep
+his house; and I am much mistaken if we shall not find a very charming
+neighbour in her."
 
-“_You_ are dancing with the only handsome girl in the room,” said Mr.
-Darcy, looking at the eldest Miss Bennet.
+Elizabeth listened in silence, but was not convinced; their behaviour at
+the assembly had not been calculated to please in general; and with more
+quickness of observation and less pliancy of temper than her sister, and
+with a judgment too unassailed by any attention to herself, she was very
+little disposed to approve them. They were in fact very fine ladies; not
+deficient in good humour when they were pleased, nor in the power of
+being agreeable where they chose it; but proud and conceited. They were
+rather handsome, had been educated in one of the first private
+seminaries in town, had a fortune of twenty thousand pounds, were in the
+habit of spending more than they ought, and of associating with people
+of rank; and were therefore in every respect entitled to think well of
+themselves, and meanly of others. They were of a respectable family in
+the north of England; a circumstance more deeply impressed on their
+memories than that their brother's fortune and their own had been
+acquired by trade.
 
-“Oh! She is the most beautiful creature I ever beheld! But there is one
-of her sisters sitting down just behind you, who is very pretty, and I
-dare say very agreeable. Do let me ask my partner to introduce you.”
+Mr. Bingley inherited property to the amount of nearly an hundred
+thousand pounds from his father, who had intended to purchase an estate,
+but did not live to do it.--Mr. Bingley intended it likewise, and
+sometimes made choice of his county; but as he was now provided with a
+good house and the liberty of a manor, it was doubtful to many of those
+who best knew the easiness of his temper, whether he might not spend the
+remainder of his days at Netherfield, and leave the next generation to
+purchase.
 
-“Which do you mean?” and turning round he looked for a moment at
-Elizabeth, till catching her eye, he withdrew his own and coldly said:
-“She is tolerable, but not handsome enough to tempt _me_; I am in no
-humour at present to give consequence to young ladies who are slighted
-by other men. You had better return to your partner and enjoy her
-smiles, for you are wasting your time with me.”
+His sisters were very anxious for his having an estate of his own; but
+though he was now established only as a tenant, Miss Bingley was by no
+means unwilling to preside at his table, nor was Mrs. Hurst, who had
+married a man of more fashion than fortune, less disposed to consider
+his house as her home when it suited her. Mr. Bingley had not been of
+age two years, when he was tempted by an accidental recommendation to
+look at Netherfield House. He did look at it and into it for half an
+hour, was pleased with the situation and the principal rooms, satisfied
+with what the owner said in its praise, and took it immediately.
 
-Mr. Bingley followed his advice. Mr. Darcy walked off; and Elizabeth
-remained with no very cordial feelings toward him. She told the story,
-however, with great spirit among her friends; for she had a lively,
-playful disposition, which delighted in anything ridiculous.
+Between him and Darcy there was a very steady friendship, in spite of a
+great opposition of character.--Bingley was endeared to Darcy by the
+easiness, openness, ductility of his temper, though no disposition could
+offer a greater contrast to his own, and though with his own he never
+appeared dissatisfied. On the strength of Darcy's regard Bingley had the
+firmest reliance, and of his judgment the highest opinion. In
+understanding Darcy was the superior. Bingley was by no means deficient,
+but Darcy was clever. He was at the same time haughty, reserved, and
+fastidious, and his manners, though well bred, were not inviting. In
+that respect his friend had greatly the advantage. Bingley was sure of
+being liked wherever he appeared, Darcy was continually giving offence.
 
-The evening altogether passed off pleasantly to the whole family. Mrs.
-Bennet had seen her eldest daughter much admired by the Netherfield
-party. Mr. Bingley had danced with her twice, and she had been
-distinguished by his sisters. Jane was as much gratified by this as
-her mother could be, though in a quieter way. Elizabeth felt Jane's
-pleasure. Mary had heard herself mentioned to Miss Bingley as the most
-accomplished girl in the neighbourhood; and Catherine and Lydia had been
-fortunate enough never to be without partners, which was all that they
-had yet learnt to care for at a ball. They returned, therefore, in good
-spirits to Longbourn, the village where they lived, and of which they
-were the principal inhabitants. They found Mr. Bennet still up. With
-a book he was regardless of time; and on the present occasion he had a
-good deal of curiosity as to the event of an evening which had raised
-such splendid expectations. He had rather hoped that his wife's views on
-the stranger would be disappointed; but he soon found out that he had a
-different story to hear.
+The manner in which they spoke of the Meryton assembly was sufficiently
+characteristic. Bingley had never met with pleasanter people or prettier
+girls in his life; every body had been most kind and attentive to him,
+there had been no formality, no stiffness, he had soon felt acquainted
+with all the room; and as to Miss Bennet, he could not conceive an angel
+more beautiful. Darcy, on the contrary, had seen a collection of people
+in whom there was little beauty and no fashion, for none of whom he had
+felt the smallest interest, and from none received either attention or
+pleasure. Miss Bennet he acknowledged to be pretty, but she smiled too
+much.
 
-“Oh! my dear Mr. Bennet,” as she entered the room, “we have had a most
-delightful evening, a most excellent ball. I wish you had been there.
-Jane was so admired, nothing could be like it. Everybody said how well
-she looked; and Mr. Bingley thought her quite beautiful, and danced with
-her twice! Only think of _that_, my dear; he actually danced with her
-twice! and she was the only creature in the room that he asked a second
-time. First of all, he asked Miss Lucas. I was so vexed to see him stand
-up with her! But, however, he did not admire her at all; indeed, nobody
-can, you know; and he seemed quite struck with Jane as she was going
-down the dance. So he inquired who she was, and got introduced, and
-asked her for the two next. Then the two third he danced with Miss King,
-and the two fourth with Maria Lucas, and the two fifth with Jane again,
-and the two sixth with Lizzy, and the _Boulanger_--”
-
-“If he had had any compassion for _me_,” cried her husband impatiently,
-“he would not have danced half so much! For God's sake, say no more of
-his partners. Oh that he had sprained his ankle in the first dance!”
-
-“Oh! my dear, I am quite delighted with him. He is so excessively
-handsome! And his sisters are charming women. I never in my life saw
-anything more elegant than their dresses. I dare say the lace upon Mrs.
-Hurst's gown--”
-
-Here she was interrupted again. Mr. Bennet protested against any
-description of finery. She was therefore obliged to seek another branch
-of the subject, and related, with much bitterness of spirit and some
-exaggeration, the shocking rudeness of Mr. Darcy.
-
-“But I can assure you,” she added, “that Lizzy does not lose much by not
-suiting _his_ fancy; for he is a most disagreeable, horrid man, not at
-all worth pleasing. So high and so conceited that there was no enduring
-him! He walked here, and he walked there, fancying himself so very
-great! Not handsome enough to dance with! I wish you had been there, my
-dear, to have given him one of your set-downs. I quite detest the man.”
+Mrs. Hurst and her sister allowed it to be so--but still they admired
+her and liked her, and pronounced her to be a sweet girl, and one whom
+they should not object to know more of. Miss Bennet was therefore
+established as a sweet girl, and their brother felt authorised by such
+commendation to think of her as he chose.

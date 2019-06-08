@@ -1,10 +1,10 @@
 {{ if .PrevInSection }}
-<div>
+<p class="navMenu menuItem mb-1 mt-1 text-left">
   <a
     href="{{ .PrevInSection.Permalink | relURL }}"
     title="{{ .PrevInSection.Title }}"
   >
-    Next Chapter &gt;
+    <i class="fas fa-chevron-circle-right"></i>
   </a>
-</div>
+</p>
 {{ end }}

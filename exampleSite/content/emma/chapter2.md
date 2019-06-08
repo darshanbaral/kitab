@@ -1,7 +1,7 @@
 +++
 title = "Chapter II"
-weight = 1
-date = "2019-05-12"
+weight = 2
+date = "2019-05-11"
 +++
 
 Mr. Weston was a native of Highbury, and born of a respectable family,
