@@ -65,7 +65,12 @@ a:hover {
 }
 #copiedMessage {
   position: fixed;
-  top: 50%;
-  left: 50%;
+  display: table-cell;
+  line-height: 100px;
+  width: 224px;
+  height: 100px;
+  text-align: center;
+  top: calc(50% - 50px);
+  left: calc(50% - 112px);
   transition: all 1s;
 }

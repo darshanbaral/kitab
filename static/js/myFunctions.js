@@ -18,10 +18,13 @@ function copyUrl(text) {
   let copiedMessage = document.createElement("div");
   copiedMessage.id = "copiedMessage";
   copiedMessage.textContent = "Link copied to clipboard";
-  copiedMessage.classList.add("bg-warning", "shadow", "p-4", "d-block");
+  copiedMessage.classList.add("bg-warning", "shadow", "d-block", "text-center");
   document.body.appendChild(copiedMessage);
 
   setTimeout(function() {
     copiedMessage.style.opacity = 0;
   }, 500);
+  setTimeout(function() {
+    document.body.removeChild(copiedMessage);
+  }, 1500);
 }
