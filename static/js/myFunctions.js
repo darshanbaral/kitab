@@ -5,3 +5,23 @@ let scrollToTop = () => {
     window.scrollTo(0, c - c / 8);
   }
 };
+
+function copyUrl(text) {
+  let copyFrom = document.createElement("textarea");
+  copyFrom.textContent = text;
+  document.body.appendChild(copyFrom);
+  copyFrom.select();
+  document.execCommand("copy");
+  copyFrom.blur();
+  document.body.removeChild(copyFrom);
+
+  let copiedMessage = document.createElement("div");
+  copiedMessage.id = "copiedMessage";
+  copiedMessage.textContent = "Link copied to clipboard";
+  copiedMessage.classList.add("bg-warning", "shadow", "p-4", "d-block");
+  document.body.appendChild(copiedMessage);
+
+  setTimeout(function() {
+    copiedMessage.style.opacity = 0;
+  }, 500);
+}

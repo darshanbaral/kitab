@@ -1,29 +1,8 @@
 {{ define "main" }}
 <div class="mb-2">
   <h2>{{ .Title }}</h2>
-  <div class="rounded p-2 shadow" style="margin-left: 32px;">
+  <div class="rounded p-2 shadow">
     {{ .Content }}
-  </div>
-
-  <div class="toTop" style="width: 25px;">
-    {{ partial "previousChapter" . }}
-    {{ partial "nextChapter" . }}
-    <p class="navMenu menuItem mb-1 mt-1 text-left">
-      <i
-        class="fas fa-chevron-circle-up"
-        title="Scroll to top"
-        onclick="scrollToTop()"
-      ></i>
-    </p>
-    <p class="about text-left mb-0">
-      <a href="https://github.com/darshanbaral/kitab">
-        <small class="text-secondary">kitab</small>
-        <br />
-      </a>
-      <a href="https://www.darshanbaral.com/">
-        <small class="text-secondary">d.b</small>
-      </a>
-    </p>
   </div>
 </div>
 {{ end }}
