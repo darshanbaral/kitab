@@ -1,14 +1,13 @@
-<div class="menuItems d-none">
-  <ul class="list-unstyled">
-    {{ range .Site.Sections }}
-    <li>
-      <a href="{{ .Permalink }}">
-        <h2 class="mb-0 mt-3">
-          {{ .Title |markdownify }}
-        </h2>
-      </a>
-      <p>by {{ .Params.author }}</p>
-    </li>
-    {{ end }}
-  </ul>
-</div>
+<b>
+  Books
+</b>
+<ul class="list-unstyled ml-1">
+  {{ range .Site.Sections }}
+  <li class="hanging">
+    <a href="{{ .Permalink }}">
+      {{ .Title |markdownify }}
+    </a>
+    by {{ .Params.author }}
+  </li>
+  {{ end }}
+</ul>

@@ -1,18 +1,16 @@
-<div class="chapters d-none">
-  <h2 class='mt-3'>
-    {{ $thisSection := .Site.GetPage "section" .Section }}
-    {{ with $thisSection }}
-    {{ .Title | markdownify }}
-    {{ end }}
-  </h2>
-  <ul class="list-unstyled ml-3 mb-0 mt-0">
-    {{ $mypages := intersect (where .Site.Pages "Section" .Section) (where .Site.Pages "Kind" "page") }}
-    {{ range $mypages }}
-    <li>
-      <a href="{{ .Permalink }}"
-        ><h4>{{ .Title | markdownify}}</h4></a
-      >
-    </li>
-    {{ end }}
-  </ul>
-</div>
+<b class="mt-3">
+  {{ $thisSection := .Site.GetPage "section" .Section }}
+  {{ with $thisSection }}
+  {{ .Title | markdownify }}
+  {{ end }}
+</b>
+<ul class="list-unstyled ml-1">
+  {{ $mypages := intersect (where .Site.Pages "Section" .Section) (where .Site.Pages "Kind" "page") }}
+  {{ range $mypages }}
+  <li class="hanging">
+    <a href="{{ .Permalink }}"
+      >{{ .Title | markdownify}}</a
+    >
+  </li>
+  {{ end }}
+</ul>

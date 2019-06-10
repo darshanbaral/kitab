@@ -36,3 +36,33 @@ a:hover {
   position: fixed;
   bottom: 10px;
 }
+
+.dropbtn {
+  color: #007bff;
+}
+.dropbtn:hover {
+  color: #0056b3;
+}
+.dropdown-content {
+  display: none;
+  position: absolute;
+  min-width: 280px;
+  max-width: 75%;
+  z-index: 1;
+}
+.dropdown {
+  cursor: pointer;
+  position: relative !important;
+  display: inline-block !important;
+}
+.dropdown:hover {
+  box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+  background-color: white;
+}
+.dropdown:hover .dropdown-content {
+  display: block;
+}
+.hanging {
+  padding-left: 15px;
+  text-indent: -15px;
+}
