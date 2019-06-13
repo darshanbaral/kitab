@@ -1,8 +1,8 @@
 {{ define "main" }}
-<div class="row mb-4">
+<div class="row mb-2 no-gutters">
   {{ $flag := or (ne (string .Params.bookCover) "") (ne (string .Params.bookCoverSmall) "") }}
   {{ if $flag }}
-  <div class="col-md-6">
+  <div class="col-md-6 mt-2">
     <div class="w-90 m-auto bg-warning">
       {{ if (and .Params.bookCover .Params.bookCoverSmall) }}
       <a href="{{ .Params.bookCover | relURL }}"
@@ -33,7 +33,7 @@
   </div>
   {{ end }}
   
-  <div class="{{ cond $flag "col-md-6" "col-md-12" }} p-2 rounded shadow">
+  <div class="{{ cond $flag "col-md-6" "col-md-12" }} p-2 mt-2 rounded shadow">
     {{ if not $flag }}
     <h2>{{ .Title | markdownify }}</h2>
     {{ if .Params.subtitle }}
