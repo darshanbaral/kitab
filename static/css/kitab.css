@@ -3,6 +3,7 @@
 }
 body {
   background-color: #f3f3ef;
+  overflow-y: scroll;
 }
 .navMenu {
   color: #007bff !important;
@@ -11,6 +12,10 @@ body {
 .navMenu:hover {
   color: #0056b3 !important;
   cursor: pointer;
+}
+.navMenu-disabled {
+  color: #4e4f50 !important;
+  font-size: 1.5em;
 }
 a:hover {
   text-decoration: none;
@@ -33,7 +38,6 @@ a:hover {
   position: fixed;
   bottom: 10px;
 }
-
 .dropbtn {
   color: #007bff;
 }
