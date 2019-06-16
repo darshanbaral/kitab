@@ -1,16 +1,21 @@
-<b class="mt-3">
-  {{ $thisSection := .Site.GetPage "section" .Section }}
-  {{ with $thisSection }}
-  {{ .Title | markdownify }}
-  {{ end }}
-</b>
-<ul class="list-unstyled ml-1">
-  {{ $mypages := intersect (where .Site.Pages "Section" .Section) (where .Site.Pages "Kind" "page") }}
-  {{ range $mypages }}
-  <li class="hanging">
-    <a href="{{ .Permalink }}"
-      >{{ .Title | markdownify}}</a
-    >
-  </li>
-  {{ end }}
-</ul>
+<div class="dropdown">
+  <p class="mb-1 mt-1 dropbtn text-left">
+    <i class="navMenu fas fa-bars"></i>
+  </p>
+  <div class="dropdown-content bg-light shadow">
+    <b class="mt-3">
+      {{ $thisSection := .Site.GetPage "section" .Section }}
+      {{ with $thisSection }}
+      {{ .Title | markdownify }}
+      {{ end }}
+    </b>
+    <ul class="list-unstyled ml-1">
+      {{ $mypages := intersect (where .Site.Pages "Section" .Section) (where .Site.Pages "Kind" "page") }}
+      {{ range $mypages }}
+      <li class="hanging">
+        <a href="{{ .Permalink }}">{{ .Title | markdownify}}</a>
+      </li>
+      {{ end }}
+    </ul>
+  </div>
+</div>
