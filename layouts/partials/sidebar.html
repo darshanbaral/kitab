@@ -1,17 +1,19 @@
 <div class="toTop" style="width: 25px;">
-  {{ partial "previousChapter" . }}
-  {{ partial "nextChapter" . }}
-  <p class="navMenu menuItem mb-1 mt-1 text-left">
+  {{ if eq .Kind "page" }}
+  {{ partial "chapterMenu" . }}
+  {{ partial "prevnext" . }}
+  {{ end }}
+  <p class="mb-1 mt-1 text-left">
     <i
-      class="fas fa-chevron-circle-up"
+      class="navMenu menuItem fas fa-chevron-circle-up"
       title="Scroll to top"
       onclick="scrollToTop()"
     ></i>
   </p>
-  <p class="navMenu menuItem mb-1 mt-1 text-left">
+  <p class="mb-1 mt-1 text-left">
     <i
       title="Copy URL to share"
-      class="fas fa-share-alt"
+      class="navMenu menuItem fas fa-share-alt"
       onclick="copyUrl({{ .Permalink }})"
     ></i>
   </p>
