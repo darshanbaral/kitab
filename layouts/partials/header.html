@@ -1,28 +1,17 @@
 <nav>
   <div class="d-flex flex-row mt-2 border-bottom">
-    <div class="menuItem navMenu mr-2">
+    <div class="navMenu mr-2">
       <a href="{{ `/` | relURL }}"><i title="Home" class="fas fa-home"></i></a>
     </div>
 
     <div class="dropdown">
-      <p class="menuItem navMenu ml-2 mr-2 dropbtn">
+      <p class="navMenu ml-2 mr-2 dropbtn">
         <i class="fas fa-book"></i>
       </p>
       <div class="dropdown-content p-2 bg-light shadow">
         {{ partial "bookMenu" . }}
       </div>
     </div>
-
-    {{ if eq .Kind "page" }}
-    <div class="dropdown">
-      <p class="menuItem navMenu ml-2 mr-2 dropbtn text-center">
-        <i class="fas fa-bars"></i>
-      </p>
-      <div class="dropdown-content p-2 bg-light shadow">
-        {{ partial "chapterMenu" . }}
-      </div>
-    </div>
-    {{ end }}
 
     <div class="w-100 text-right">
       {{ partial "footer" . }}
