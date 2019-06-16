@@ -1,0 +1,24 @@
+<p class="mb-1 mt-1 text-left">
+  {{ if .PrevInSection }}
+  <a
+    href="{{ .PrevInSection.Permalink | relURL }}"
+    title="{{ .PrevInSection.Title }}"
+  >
+    <i class="navMenu fas fa-chevron-circle-right"></i>
+  </a>
+  {{ else }}
+  <i class="navMenu-disabled fas fa-chevron-circle-right"></i>
+  {{ end }}
+</p>
+<p class="mb-1 mt-1 text-left">
+  {{ if .NextInSection }}
+  <a
+    href="{{ .NextInSection.Permalink | relURL }}"
+    title="{{ .NextInSection.Title }}"
+  >
+    <i class="navMenu fas fa-chevron-circle-left"></i>
+  </a>
+  {{ else }}
+  <i class="navMenu-disabled fas fa-chevron-circle-left"></i>
+  {{ end }}
+</p>
