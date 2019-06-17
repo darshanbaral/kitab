@@ -1,4 +1,11 @@
 window.onclick = function(event) {
+  checkClick(event);
+};
+window.ontouchstart = function(event) {
+  checkClick(event);
+};
+
+checkClick = function(event) {
   let insideMenu = false;
   Array.from(document.querySelectorAll(".show")).forEach(menu => {
     insideMenu = insideMenu || menu.contains(event.target);
