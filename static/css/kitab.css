@@ -5,15 +5,18 @@ body {
   background-color: #f3f3ef;
   overflow-y: scroll;
 }
-.navMenu {
+footer {
+  line-height: 1.2em;
+}
+.nav-menu {
   color: #007bff !important;
   font-size: 1.5em;
 }
-.navMenu:hover {
+.nav-menu:hover {
   color: #0056b3 !important;
   cursor: pointer;
 }
-.navMenu-disabled {
+.nav-menu-disabled {
   color: #4e4f50 !important;
   font-size: 1.5em;
 }
@@ -38,30 +41,8 @@ a:hover {
   position: fixed;
   bottom: 10px;
 }
-.dropbtn {
-  color: #007bff;
-}
-.dropbtn:hover {
-  color: #0056b3;
-}
-.dropdown-content {
-  display: none;
-  position: absolute;
-  min-width: 280px;
-  max-width: 75%;
-  z-index: 1;
-}
-.dropdown {
-  cursor: pointer;
-  position: relative !important;
-  display: inline-block !important;
-}
-.dropdown:hover {
-  box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
-  background-color: white;
-}
-.dropdown:hover .dropdown-content {
-  display: block;
+.show {
+  transition: all 0.1s;
 }
 .hanging {
   padding-left: 15px;
