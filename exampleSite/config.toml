@@ -10,4 +10,5 @@ pluralizelisttitles = false
   author = "First Last"
   description = "Some books of Jane Austen"
   dateFormat = "2006-01-02"
-  footer = "Awesome Books"
+  footer1 = "Awesome Books"
+  footer2 = "(c) Cool Books"
