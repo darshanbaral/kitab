@@ -27,7 +27,8 @@
     integrity="sha384-oS3vJWv+0UjzBfQzYUhtDYW+Pj2yciDJxpsK1OYPAYjqT085Qq/1cq5FLXAZQ7Ay"
     crossorigin="anonymous"
   />
-  <link rel="stylesheet" href="{{ .Site.BaseURL }}/css/kitab.css" />
+  <link rel="stylesheet" href="{{ `/css/kitab.css` | relURL }}" />
 
-  <script src="{{ .Site.BaseURL }}/js/myFunctions.js"></script>
+  <script src="{{ `/js/myFunctions.js` | relURL }}"></script>
+  <script src="{{ `/js/clipboard.min.js` | relURL }}"></script>
 </head>
