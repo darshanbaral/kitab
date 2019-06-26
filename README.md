@@ -2,6 +2,9 @@
 
 The kitab Theme is a simple theme meant for publishing books.
 
+## Demo
+[Click here](https://kitabdemo.netlify.com/) for a live demo.
+
 ## Installation
 
 Inside the folder of your Hugo site run:
