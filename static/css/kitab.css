@@ -1,12 +1,22 @@
-* {
-  font-family: "Roboto", sans-serif;
-}
 body {
+  font-family: "Roboto", sans-serif;
   background-color: #f3f3ef;
   overflow-y: scroll;
 }
+nav {
+  height: 40px;
+}
+main {
+  min-height: calc(100vh - 100px);
+}
+.side-bar {
+  width: 25px;
+  position: fixed;
+  top: 70px;
+}
 footer {
-  line-height: 1.2em;
+  font-size: 0.9em;
+  margin-left: 35px;
 }
 .nav-menu {
   color: #007bff !important;
@@ -36,10 +46,6 @@ a:hover {
   position: absolute;
   bottom: 2%;
   right: 5%;
-}
-.toTop {
-  position: fixed;
-  bottom: 10px;
 }
 .show {
   transition: all 0.1s;
