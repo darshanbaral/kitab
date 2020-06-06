@@ -12,7 +12,6 @@ nav {
 }
 main {
   min-height: calc(100vh - 100px);
-  background-color: white;
   border-radius: 10px;
 }
 .side-bar {
