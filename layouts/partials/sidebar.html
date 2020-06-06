@@ -2,13 +2,12 @@
   {{ if eq .Kind "page" }}
   {{ partial "prevnext" . }}
   {{ end }}
-  <p class="mb-1 mt-1 text-left">
+  <a href="#" class="mb-1 mt-1 text-left">
     <i
       class="nav-menu fas fa-chevron-circle-up"
-      title="Scroll to top"
-      onclick="scrollToTop()"
+      aria-label="Scroll to top"
     ></i>
-  </p>
+  </a>
   <p class="mb-1 mt-1 text-left">
     <i
       title="Copy URL to share"
