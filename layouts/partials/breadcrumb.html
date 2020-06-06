@@ -1,0 +1,24 @@
+<div>
+  {{ template "breadcrumbnav" (dict "p1" . "p2" .) }}
+</div>
+
+{{ define "breadcrumbnav" }}
+{{ if .p1.Parent }}
+{{ template "breadcrumbnav" (dict "p1" .p1.Parent "p2" .p2 ) }}
+{{ else if not .p1.IsHome }}
+{{ template "breadcrumbnav" (dict "p1" .p1.Site.Home "p2" .p2 ) }}
+{{ end }}
+
+<span style="font-size: 0.9em;">
+  {{- if .p1.Parent }} / {{ end -}}
+  {{- if .p1.IsHome -}}
+  <i
+    aria-label="home"
+    class="fas fa-home"
+  ></i
+  >
+  {{- else -}}
+  {{- .p1.Title | markdownify | truncate 15 -}}
+  {{- end -}}
+</span>
+{{ end }}
