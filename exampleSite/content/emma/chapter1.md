@@ -1,5 +1,6 @@
 +++
 title = "Chapter I"
+summary = "Emma is handsome, clever, and rich."
 weight = 1
 date = "2019-05-12"
 +++
