@@ -1,17 +1,23 @@
 <div class="side-bar">
-  {{ if eq .Kind "page" }}
-  {{ partial "prevnext" . }}
-  {{ end }}
+  {{ if eq .Kind "page" }} {{ partial "prevnext" . }} {{ end }}
   <a href="#" class="mb-1 mt-1 text-left">
     <i
-      class="nav-menu fas fa-chevron-circle-up"
+      class="fs-2 text-primary bi bi-arrow-up-circle-fill"
       aria-label="Scroll to top"
     ></i>
   </a>
   <p class="mb-1 mt-1 text-left">
     <i
       title="Copy URL to share"
-      class="nav-menu fas fa-share-alt"
+      role="button"
+      class="fs-2 text-primary bi bi-share-fill"
+    ></i>
+  </p>
+  <p class="mb-1 mt-1 text-left">
+    <i
+      role="button"
+      class="fs-2 text-primary bi bi-lightbulb-fill"
+      onclick="toggleTheme(this)"
     ></i>
   </p>
 </div>
@@ -28,32 +34,53 @@
     copiedMessage.id = "copiedMessage";
     copiedMessage.textContent = alertMessage;
     copiedMessage.classList.add(
-      "bg-warning",
+      "bg-success",
+      "text-white",
       "shadow",
       "d-block",
       "text-center"
     );
     document.body.appendChild(copiedMessage);
 
-    setTimeout(function() {
+    setTimeout(function () {
       copiedMessage.style.opacity = 0;
     }, 500);
-    setTimeout(function() {
+    setTimeout(function () {
       document.body.removeChild(copiedMessage);
     }, 1500);
   }
 
-  let clipboard = new ClipboardJS(".fa-share-alt", {
-    text: function() {
+  let clipboard = new ClipboardJS(".bi-share-fill", {
+    text: function () {
       return "{{ .Permalink }}";
-    }
+    },
   });
 
-  clipboard.on("success", function() {
+  clipboard.on("success", function () {
     displayCopyMessage(true);
   });
 
-  clipboard.on("error", function() {
+  clipboard.on("error", function () {
     displayCopyMessage(false);
   });
+
+  const toggleTheme = (el) => {
+    let html_ = document.querySelector("html");
+    let currTheme = html_.getAttribute("data-bs-theme");
+
+    if (currTheme === "dark") {
+      el.classList.add("bi-lightbulb-off");
+      el.classList.remove("bi-lightbulb-fill");
+      localStorage.setItem("theme", "light");
+    } else {
+      el.classList.add("bi-lightbulb-fill");
+      el.classList.remove("bi-lightbulb-off");
+      localStorage.setItem("theme", "dark");
+    }
+
+    html_.setAttribute(
+      "data-bs-theme",
+      currTheme === "light" ? "dark" : "light"
+    );
+  };
 </script>

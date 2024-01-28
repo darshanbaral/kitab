@@ -17,7 +17,7 @@
           - {{ .Params.author }} ({{ .Date.Format (default "2006-May-13" $.Site.Params.dateFormat) }})
         </small>
       </div>
-      <ul class="list-unstyled ml-1 mb-0 border-top border-primary pt-2">
+      <ul class="list-unstyled ms-1 mb-0 border-top border-primary pt-2">
         {{ range first 5 .Pages }}
         <li>
           <a href="{{ .Permalink }}">

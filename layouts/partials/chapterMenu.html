@@ -1,34 +1,26 @@
-<div class="position-relative">
-  <i
-    class="nav-menu hover-menu ml-2 mr-2 mt-1 fas fa-bars"
-    onclick="expandMenu(this)"
-    title = "Show Chapters"
-  ></i>
-  <div
-    class="show bg-light shadow mt-2"
-    style="
-      position: absolute;
-      min-width: 280px;
-      max-width: 75%;
-      z-index: 1;
-      max-height: 0px;
-      overflow: hidden;"
+<div class="dropdown">
+  <span data-bs-toggle="dropdown" id="chapterMenuButton" aria-expanded="false">
+    <i
+      role="button"
+      class="fs-2 m-2 bi bi-list text-primary"
+      title="Show all books"
+    ></i>
+  </span>
+
+  <ul
+    class="dropdown-menu p-4"
+    style="min-width: 250px"
+    aria-labelledby="chapterMenuButton"
   >
-    <div class="p-2 rounded">
-      <strong class="mt-3">
-        {{ $thisSection := .Site.GetPage "section" .Section }}
-        {{ with $thisSection }}
-        {{ .Title | markdownify }}
-        {{ end }}
-      </strong>
-      <ul class="list-unstyled ml-1">
-        {{ $mypages := intersect (where .Site.Pages "Section" .Section) (where .Site.Pages "Kind" "page") }}
-        {{ range $mypages }}
-        <li class="hanging">
-          <a href="{{ .Permalink }}">{{ .Title | markdownify}}</a>
-        </li>
-        {{ end }}
-      </ul>
-    </div>
-  </div>
+    {{ $thisSection := .Site.GetPage "section" .Section }} {{ with $thisSection
+    }}
+    <li>{{ .Title | markdownify }} {{ end }}</li>
+    <li><hr class="dropdown-divider" /></li>
+    {{ $mypages := intersect (where .Site.Pages "Section" .Section) (where
+    .Site.Pages "Kind" "page") }} {{ range $mypages }}
+    <li>
+      <a href="{{ .Permalink }}">{{ .Title | markdownify}}</a>
+    </li>
+    {{ end }}
+  </ul>
 </div>

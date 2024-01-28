@@ -9,12 +9,12 @@
 {{ template "breadcrumbnav" (dict "p1" .p1.Site.Home "p2" .p2 ) }}
 {{ end }}
 
-<span style="font-size: 0.9em;">
+<span class="fs-7">
   {{- if .p1.Parent }} / {{ end -}}
   {{- if .p1.IsHome -}}
   <i
     aria-label="home"
-    class="fas fa-home"
+    class="bi bi-house-fill"
   ></i
   >
   {{- else -}}
