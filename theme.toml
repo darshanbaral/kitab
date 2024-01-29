@@ -5,7 +5,7 @@ description = "A hugo theme for publishing books"
 homepage = "https://github.com/darshanbaral/kitab"
 tags = ["book"]
 features = ["minimal", "responsive"]
-min_version = "0.55"
+min_version = "0.121.1"
 
 [author]
   name = "Darshan Baral"
