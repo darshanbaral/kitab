@@ -1,11 +1,9 @@
 <nav class="mt-2 border-bottom">
   <div class="d-flex flex-row position-relative">
     <a href="{{ `/` | relURL }}"
-      ><i title="Home" class="text-primary fs-2 m-2 bi bi-house-fill"></i
+      ><i title="Home" class="text-primary fs-2 my-2 me-2 bi bi-house-fill"></i
     ></a>
-    {{ partial "bookMenu" . }}
-    {{ if eq .Kind "page" }}
-    {{ partial "chapterMenu" . }}
-    {{ end }}
+    {{ partial "bookMenu" . }} {{ if eq .Kind "page" }} {{ partial "chapterMenu"
+    . }} {{ end }}
   </div>
 </nav>

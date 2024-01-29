@@ -36,6 +36,11 @@
     integrity="sha384-BBtl+eGJRgqQAUMxJ7pMwbEyER4l1g+O15P+16Ep7Q9Q+zqX6gSbd85u4mG4QzX+"
     crossorigin="anonymous"
   ></script>
-  <script src="{{ `/js/myFunctions.js` | relURL }}"></script>
   <script src="{{ `/js/clipboard.min.js` | relURL }}"></script>
+  <script src="{{ `/js/fixThemeIcon.js` | relURL }}"></script>
+  <script>
+    document.addEventListener('DOMContentLoaded', function() {
+      fixThemeIcon();
+   }, false);
+  </script>
 </head>

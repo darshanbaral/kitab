@@ -5,10 +5,13 @@ body {
   font-family: "Roboto", sans-serif;
   overflow-y: scroll;
   min-width: 250px;
+  max-width: 768px;
+  font-size: 16px;
 }
 main {
   min-height: calc(100vh - 100px);
   border-radius: 10px;
+  margin-left: 48px;
 }
 .side-bar {
   width: 25px;
@@ -31,6 +34,7 @@ footer {
   left: calc(50% - 112px);
   transition: all 1s;
 }
+
 [data-bs-theme="dark"] {
   color-scheme: dark;
   --bs-primary-rgb: 255, 170, 0;
