@@ -1,12 +1,15 @@
 const fixThemeIcon = () => {
-  console.log(2);
   let toggleTheme = document.querySelector(".toggle-theme");
-  let theme = localStorage.getItem("theme");
-  if (theme === "dark") {
+  let html_ = document.querySelector("html");
+  let currTheme = html_.getAttribute("data-bs-theme");
+
+  console.log(currTheme);
+
+  if (currTheme === "dark") {
+    toggleTheme.classList.add("bi-lightbulb-off");
+    toggleTheme.classList.remove("bi-lightbulb-fill");
+  } else {
     toggleTheme.classList.add("bi-lightbulb-fill");
     toggleTheme.classList.remove("bi-lightbulb-off");
-  } else {
-    toggleTheme.classList.remove("bi-lightbulb-fill");
-    toggleTheme.classList.add("bi-lightbulb-off");
   }
 };

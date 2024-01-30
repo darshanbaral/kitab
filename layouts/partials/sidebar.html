@@ -69,12 +69,12 @@
     let currTheme = html_.getAttribute("data-bs-theme");
 
     if (currTheme === "dark") {
-      el.classList.add("bi-lightbulb-off");
-      el.classList.remove("bi-lightbulb-fill");
+      el.classList.remove("bi-lightbulb-off");
+      el.classList.add("bi-lightbulb-fill");
       localStorage.setItem("theme", "light");
     } else {
-      el.classList.add("bi-lightbulb-fill");
-      el.classList.remove("bi-lightbulb-off");
+      el.classList.remove("bi-lightbulb-fill");
+      el.classList.add("bi-lightbulb-off");
       localStorage.setItem("theme", "dark");
     }
 
