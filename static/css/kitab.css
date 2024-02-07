@@ -20,7 +20,7 @@ main {
 }
 footer {
   font-size: 0.9em;
-  margin-left: 35px;
+  margin-left: 48px;
 }
 
 #copiedMessage {
@@ -35,9 +35,15 @@ footer {
   transition: all 1s;
 }
 
+[data-bs-theme="light"] {
+  color-scheme: light;
+  --bs-secondary-rgb: 237, 237, 237;
+}
+
 [data-bs-theme="dark"] {
   color-scheme: dark;
   --bs-primary-rgb: 255, 170, 0;
   --bs-link-color-rgb: 255, 170, 0;
   --bs-link-hover-color-rgb: 198, 138, 0;
+  --bs-secondary-rgb: 64, 64, 64;
 }

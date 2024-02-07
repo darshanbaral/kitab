@@ -1,0 +1,15 @@
+<ul class="list-unstyled ms-1 mb-0 border-top border-primary pt-2">
+  {{ range first 5 .Pages }}
+  <li>
+    <a href="{{ .Permalink }}">
+      <p class="mb-1">{{ .Title }}</p>
+    </a>
+  </li>
+  {{ end }}
+</ul>
+{{ $pageNums := len .Pages }}
+{{ if ge $pageNums 6 }}
+<p class="text-right mb-0">
+  <a href="{{ .Permalink }}"> ...more </a>
+</p>
+{{ end }}
