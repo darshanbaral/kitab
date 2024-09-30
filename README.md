@@ -3,7 +3,7 @@
 The kitab Theme is a simple theme meant for publishing books.
 
 ## Demo
-[Click here](https://kitabdemo.netlify.app/) for a live demo.
+[Click here](https://kitab-f00.pages.dev/) for a live demo.
 
 ## Installation
 
