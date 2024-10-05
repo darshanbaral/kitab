@@ -11,9 +11,11 @@
     {{ range .Pages.ByWeight }}
     <li>
       <a href="{{ .Permalink }}"> {{- .Title -}} </a>
-      {{ if .Params.summary }}
-      <p class="ms-2 mb-0">{{ .Params.summary }}</p>
-      {{ end }}
+      <div class="small chapter-summary">
+        {{ if .Params.summary }}
+        <p>{{ .Params.summary }}</p>
+        {{ else }} {{ .Summary | truncate 250 }} {{ end }}
+      </div>
     </li>
     {{ end }}
   </ul>

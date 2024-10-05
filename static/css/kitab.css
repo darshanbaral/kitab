@@ -5,8 +5,6 @@ body {
   font-family: "Roboto", sans-serif;
   overflow-y: scroll;
   min-width: 250px;
-  max-width: 768px;
-  font-size: 16px;
 }
 main {
   min-height: calc(100vh - 100px);
@@ -33,6 +31,9 @@ footer {
   top: calc(50% - 50px);
   left: calc(50% - 112px);
   transition: all 1s;
+}
+.chapter-summary > p {
+  margin-bottom: 1em;
 }
 
 [data-bs-theme="light"] {
